@@ -1,0 +1,55 @@
+img{
+    width: 350px;
+    height: 1000px;
+    position: relative;
+}
+
+ body{
+    background-color: black;
+}
+
+#id1{
+    width: 500px;
+    height: 600px;
+    margin-top: 20px;
+    background-color: #131416;
+}
+
+.bi-display,.bi-reception-4,.bi-stack,.bi-shield-x {
+    color:#66A382;
+    font-size: 30px;
+}
+
+.column{
+    width: 250px;
+}
+
+#name{
+    margin-top: -80px;
+    position: absolute;
+    margin-left: 80px;
+}
+#pro{
+    margin-top: -30px;
+    position: absolute;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.mtext{
+    color: white;
+}
+
+#id2{
+    background-color: #131416;
+    width: 500px;
+}
+
+.info{
+    color:#66A382;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+}
