@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    margin:0%;
+}
+body{
+    background-color: #333;
+}
+.showcase{
+    background: #333 url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position:absolute;
+    z-index: -1;
+    min-width: 200px;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.intro{
+    display: flex;
+    background-color: wheat;
+    flex-direction: column;
+    margin-top: 280px;
+}
+
+.head{
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    /* margin-left: 500px; */
+}
+
+.apps{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 480px) {
+    .apps{
+        flex-direction: column;
+    
+
+    }
+}
+
+@media (max-width: 480px) {
+    .card{
+        justify-content: center;
+        margin-left: 84px;
+        margin-top: 10px;
+    }
+}
+
+
+
+@media (max-width: 360px) {
+    .card{
+        justify-content: center;
+        margin-left: 29px;
+        margin-top: 10px;
+    }
+}
+
+.deal{
+    background-color: white;
+    text-align: center;
+}
+
+.contact{
+    background-color: lightblue;
+    text-align: center;
+}
+
+.about{
+    background-color: gray;
+    text-align: center;
+}
+
+.details{
+    display: flex;
+}
+
+@media (max-width:360px){
+    .details{
+        flex-direction: column;
+    }
+}
+
