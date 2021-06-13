@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(./images/bg.png);
+}
+
+.header_bg{
+    border-top: 8px groove black;
+    padding: 2%;
+}
+
+.icon{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.search form{
+    float: right;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:770px){
+    .icon{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:360px){
+    .search form{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .search form input[type="text"]{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width:414px){
+    .search form{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .search form input[type="text"]{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width:540px){
+    .search form{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .search form input[type="text"]{
+        width: 180px;
+    }
+}
+
+.portal{
+    background-image: url(./images/slider_bg.jpg);
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+
+}
+
+.content{
+    padding: 5%;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px){
+    .portal{
+        background-size: 100% 100%;
+        text-align: center;
+    }
+}
