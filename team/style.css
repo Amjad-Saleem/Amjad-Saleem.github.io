@@ -1,0 +1,41 @@
+.header{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.login{
+    /* display: flex; */
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    
+}
+
+.signUp{
+    display: none;
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    
+}
+
+.main{
+    display: flex;
+    margin: 30px;
+}
+
+.greet{
+    width: 90%;
+    text-align: left;
+}
+.cp{
+    text-align: right;
+}
+
+.cppop{
+    display: none;
+    width: 600px;
+    border-style: groove;
+    min-height: 350px;
+    height: auto;
+}
