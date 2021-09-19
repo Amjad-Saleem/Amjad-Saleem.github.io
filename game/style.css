@@ -1,0 +1,64 @@
+body{
+    background-image: url(./images/b2.jpg);
+    background-size: cover;
+}
+
+.header{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.loginf {
+    margin-top: 100px;
+    border-style: double;
+    height: 300px;
+    width: 500px;
+    background: #003973;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E5E5BE, #003973);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E5E5BE, #003973); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+
+}
+
+.loginf form{
+    padding-top: 10px;
+}
+
+.signf{
+    display: none;
+    margin-top: 100px;
+    border-style: double;
+    height: 300px;
+    width: 500px;
+    background: #003973;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E5E5BE, #003973);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E5E5BE, #003973); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+}
+
+.gameL1{
+    display: none;
+    /* border-style: dotted; */
+    height: 405px;
+    max-height: 450px;
+    max-width: 800px;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.dot{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: cadetblue;
+    
+}
+
+#lives{
+    font-size: 30px;
+    text-align: center;
+    font-style: oblique;
+}
